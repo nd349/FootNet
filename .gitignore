@@ -39,7 +39,6 @@ Thumbs.db
 # Data #
 #####################
 *.nc
-*.ncdf
 *.arl
 *.hrrr
 *.hrrra
