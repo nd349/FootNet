@@ -1,0 +1,9 @@
+#!/bin/bash -l
+
+#$ -P stilt
+
+#$ -pe omp 32
+echo "run_BARNETT"
+Rscript r/run_BARNETT.r
+#echo "run_Foot"
+#Rscript r/run_Foot.r
