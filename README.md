@@ -1,1 +1,1 @@
-# Computing Surface Sensitivity of an Atmospheric Meansurement (Footprints)
+# Computing Surface Sensitivity of an Atmospheric Measurement (Footprints)
