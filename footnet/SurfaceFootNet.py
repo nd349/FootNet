@@ -1,3 +1,6 @@
+import warnings
+warnings.filterwarnings('ignore', category=UserWarning)
+
 import torch
 import datetime
 import numpy as np
