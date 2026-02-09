@@ -1,0 +1,14 @@
+torch
+torchvision
+numpy
+pandas
+xarray
+netCDF4
+scipy
+scikit-learn
+matplotlib
+tqdm
+joblib
+geopandas
+shapely
+tensorboard

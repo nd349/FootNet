@@ -243,7 +243,7 @@ class ColumnFootNet():
         filename: str, path to the model file
         """
         print(f"...Loading {filename}")
-        checkpoint = torch.load(filename, weights_only=False)
+        checkpoint = torch.load(filename, weights_only=False, map_location=self.device)
         model.load_state_dict(checkpoint['MODEL_STATE'])
 
     def post_processing(self, pred):
@@ -291,3 +291,6 @@ class ColumnFootNet():
         reference_rlons = reference_list[2].cpu().detach().numpy()
         reference_rlats = reference_list[3].cpu().detach().numpy()
         return foots, reference_indices, reference_timestamps, reference_rlons, reference_rlats
+
+
+    
